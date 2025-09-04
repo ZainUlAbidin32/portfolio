@@ -1,0 +1,25 @@
+.whatido-container {
+    background-color: rgb(22, 21, 21);
+    color: white;
+    padding: 30px 60px;
+}
+.whatido-container > h3 {
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.whatido-container > p {
+    color: rgb(214, 213, 213);
+    font-size: 1rem;
+}
+
+/* Responsivness */
+
+@media (max-width: 600px) {
+    .whatido-container > h3 {
+        text-align: center;
+    }
+    .whatido-container > p {
+        text-align: justify;
+    }
+}
