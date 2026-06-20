@@ -4,6 +4,7 @@ import netflix from '../images/Netflix.png'
 import gmail from '../images/Gmail.png'
 import linkedin from '../images/Linkedin.png'
 import movie from '../images/Movie.png'
+import agency from '../images/Agency-AI.jpeg'
 
 const Projects = () => {
 
@@ -39,6 +40,13 @@ const Projects = () => {
       live: "https://zainulabidin32.github.io/linkedin-clone/",
       code: "https://zainulabidin32.github.io/movie-app/",
       desc: "Developed a responsive movie information and rating application using HTML, CSS, and Vanilla JavaScript, providing users with an intuitive interface to explore movies. Integrated a free movie API to fetch and display real-time details and ratings, enhancing functionality and delivering dynamic content.",
+    },
+    {
+      image: agency,
+      name: "Agency AI",
+      live: "https://agency-ai0.netlify.app/",
+      code: "https://github.com/ZainUlAbidin32/Agency-AI",
+      desc: "Built a modern website frontend using React and Tailwind CSS. The website includes multiple pages such as Home, Services, Our Work, and Contact Us. It is fully responsive across all devices, featuring a clean, modern UI design focused on showcasing agency services and portfolio work with a smooth user experience."
     },
   ];
 
